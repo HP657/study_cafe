@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Main</title>
+</head>
+<body>
+    <h1>스터디 카페</h1>
+    <form>
+        전화번호 : <input type="number" required name="login_num" placeholder=" ' - ' 제외"> <br>
+        비밀번호 : <input type="number" required name="login_pw" placeholder="4자리" > <br>
+        <button id="seeseat">자리보기</button>
+    </form>
+    <button id="signup" >회원가입하러가기</button>
+
+    <script>
+        document.getElementById("seeseat").addEventListener('click', function () {
+            window.location.href = "/seat";
+        });
+
+        document.getElementById("signup").addEventListener('click', function () {
+            window.location.href = "/signup";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Study_Cafe</title>
+</head>
+<body>
+    <h1>스터디 카페 자리</h1>
+    <div id="seats">
+        <!-- 자리 보여줌 -->
+    </div>
+    
+    <script>
+        window.onload = function() {
+            fetchSeats();
+        };
+
+        function fetchSeats() {
+            fetch('/seats')
+                .then(response => response.json())
+                .then(data => {
+                    displaySeats(data);
+                })
+        }
+
+        function displaySeats(seats) {
+            const seatsDiv = document.getElementById('seats');
+            seats.forEach(seat => {
+                const seatElement = document.createElement('div');
+                seatElement.textContent = `자리 : ${seat.seat_number}, 상태 : ${seat.status === 1 ? '사용 중' : '빈 자리'}`;
+                seatsDiv.appendChild(seatElement);
+            });
+        }
+    </script>
+
+    <div>
+        <form id="seatForm">
+            <label for="seatNumber">자리 번호:</label>
+            <input type="number" id="seatNumber" name="seatNumber" required>
+            <button id="sitButton" type="submit">앉기</button>
+            <button id="standButton" type="submit">일어나기</button>
+        </form>
+
+        <script>
+            // 앉기
+            document.getElementById('sitButton').addEventListener('click', async function(event) {
+                event.preventDefault();
+                const seatNumber = document.getElementById('seatNumber').value;
+                const response = await toggleSeat(seatNumber, 'sit');
+                handleResponse(response);
+            });
+        
+            // 일어나기
+            document.getElementById('standButton').addEventListener('click', async function(event) {
+                event.preventDefault(); // 폼 제출 방지
+                const seatNumber = document.getElementById('seatNumber').value;
+                const response = await toggleSeat(seatNumber, 'stand');
+                handleResponse(response);
+            });
+        
+            async function toggleSeat(seatNumber, action) {
+                let method;
+                if (action === 'sit') {
+                    method = 'PUT';
+                } else if (action === 'stand') {
+                    method = 'DELETE';
+                }
+        
+                const response = await fetch(`/seat/${seatNumber}`, {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ action })
+                });
+                return response;
+            }
+        
+            async function handleResponse(response) {
+                if (response.ok) {
+                    location.reload();
+                }
+            }
+        </script>
+        
+    </div>
+
+</body>
+</html>
