@@ -1,0 +1,144 @@
+commit 05c1772a2c9abb999ae5c1052a21f2889ce7d4ed
+Author: HP657 <junlee5070@gmail.com>
+Date:   Sat Feb 24 18:49:23 2024 +0900
+
+    add common signup
+
+commit 39301aa04a2dc8747a14dc57c4878d18432843a0
+Author: HP657 <junlee5070@gmail.com>
+Date:   Tue Feb 20 04:30:53 2024 +0900
+
+    refactor : file
+
+commit 93c08f3a5304b8288720302d7de33f4fb1a2fc01
+Author: 이효준 <102369002+HP657@users.noreply.github.com>
+Date:   Sat Feb 17 05:39:37 2024 +0900
+
+    Delete test.js
+
+commit 192412d79006f5c75c9b6d9baacdc9ffd2d07984
+Author: 이효준 <102369002+HP657@users.noreply.github.com>
+Date:   Sat Feb 17 05:39:21 2024 +0900
+
+    Update .gitignore
+
+commit c3d36c5454c747e0470588ee7e336f62d483d3d0
+Author: HP657 <junlee5070@gmail.com>
+Date:   Sat Feb 17 05:33:10 2024 +0900
+
+    refactor :: file 구조
+
+commit 87da8320b56867de424297b0a5622d904239ae0f
+Author: HP657 <junlee5070@gmail.com>
+Date:   Fri Feb 16 21:07:34 2024 +0900
+
+    add :: login_signup 기능 만들기 1
+
+commit b17d3d0dad57af5e74a96a2df13117ba7f8ceddc
+Author: HP657 <junlee5070@gmail.com>
+Date:   Fri Feb 16 15:47:37 2024 +0900
+
+    chore
+
+commit 18bfefbbf60f62ad576771abd9e3c35401b2407d
+Merge: 1607f2f e288dcc
+Author: HP657 <junlee5070@gmail.com>
+Date:   Fri Feb 16 13:51:31 2024 +0900
+
+    Merge branch 'main' of https://github.com/HP657/study_cafe
+
+commit 1607f2f202eb85316647845636295261452704db
+Author: HP657 <junlee5070@gmail.com>
+Date:   Fri Feb 16 13:51:28 2024 +0900
+
+    gitignore add
+
+commit e288dcc59c95eddcba80af69d509f69f7c631bc8
+Author: 이효준 <102369002+HP657@users.noreply.github.com>
+Date:   Fri Feb 16 08:59:27 2024 +0900
+
+    Delete .env
+
+commit 83d7f93a21008b626909cdcfb397dae374fb96d8
+Author: HP657 <junlee5070@gmail.com>
+Date:   Fri Feb 16 08:58:02 2024 +0900
+
+    DB_password hide
+
+commit 34be574176d26ec828dc37979f5dbbc974746fbd
+Author: HP657 <junlee5070@gmail.com>
+Date:   Thu Feb 15 22:57:37 2024 +0900
+
+    router.js create
+
+commit 9c0d5ae22200df7c1703a8cb86e906cc1faf1f09
+Author: HP657 <junlee5070@gmail.com>
+Date:   Thu Feb 15 20:41:40 2024 +0900
+
+    sit/stand => 앉는형식으로 바꿈
+
+commit 516f975a71ba6776ced45c22c8727857334ac0b9
+Author: HP657 <junlee5070@gmail.com>
+Date:   Wed Feb 14 22:50:17 2024 +0900
+
+    sql_backup 이게 되네
+
+commit aef7b445eab412631bcaf2dbcc0e78fc0e1bfa5c
+Author: HP657 <junlee5070@gmail.com>
+Date:   Tue Feb 13 21:24:29 2024 +0900
+
+    commit
+
+commit f7f63fa8673588dcb6014ff0a795da1144027fc0
+Author: HP657 <junlee5070@gmail.com>
+Date:   Tue Feb 13 21:04:11 2024 +0900
+
+    commit
+
+commit 69b10cd9f194bc639eb0a25ef2079edf734c27c1
+Author: HP657 <junlee5070@gmail.com>
+Date:   Tue Feb 13 13:59:27 2024 +0900
+
+    commit
+
+commit 0199f052e54da0ad042a921afe9a8e8977908dc6
+Author: 이효준 <102369002+HP657@users.noreply.github.com>
+Date:   Tue Feb 13 02:34:27 2024 +0900
+
+    Update README.md
+
+commit 5370b390adf2425c35eddc903f96b1c2c0f83f0b
+Author: HP657 <junlee5070@gmail.com>
+Date:   Tue Feb 13 02:33:07 2024 +0900
+
+    commit
+
+commit bab06964a4abace1ce6097a572db13a804005fa5
+Author: 이효준 <102369002+HP657@users.noreply.github.com>
+Date:   Mon Feb 12 22:47:09 2024 +0900
+
+    Create README.md
+
+commit 3424e5586e47bc2eb7632a80e5da9d05d4ac90f2
+Author: HP657 <junlee5070@gmail.com>
+Date:   Mon Feb 12 22:46:40 2024 +0900
+
+    commit
+
+commit fdfebbd188557f6022d8209f958724265947fba5
+Author: HP657 <junlee5070@gmail.com>
+Date:   Mon Feb 12 22:29:06 2024 +0900
+
+    dbconnect
+
+commit c8926b62d978d5ab6311822b680e7824d0ab1752
+Author: HP657 <junlee5070@gmail.com>
+Date:   Mon Feb 12 22:23:08 2024 +0900
+
+    commit
+
+commit 04235405013c519bb9c5084ae53e41023d7c364f
+Author: HP657 <junlee5070@gmail.com>
+Date:   Mon Feb 12 22:04:07 2024 +0900
+
+    commit
